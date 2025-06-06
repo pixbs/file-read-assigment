@@ -28,10 +28,6 @@
 - Comprehensive test suite
 - Type hints throughout the codebase
 
-## Installation
-```bash
-pip install file-reader
-```
 
 ## Quick Start
 ```python
