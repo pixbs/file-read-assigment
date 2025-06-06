@@ -28,10 +28,6 @@
 - Comprehensive test suite
 - Type hints throughout the codebase
 
-## Installation
-```bash
-pip install file-reader
-```
 
 ## Quick Start
 ```python
@@ -82,9 +78,9 @@ The `ExtendedFileReader` class extends `FileReader` with additional features:
 See the `examples/usage.py` file for comprehensive examples of all features.
 
 ## Development
-### Setup
+### Setup (pip)
 ```bash
-git clone https://github.com/yourusername/file-reader.git
+git clone https://github.com/pixbs/file-read-assigment.git
 cd file-reader
 
 # Create and activate a virtual environment
@@ -95,6 +91,20 @@ source .venv/bin/activate  # Linux/Mac
 
 # Install dependencies
 pip install -e ".[test]"
+```
+### Setup (uv)
+```bash
+git clone https://github.com/pixbs/file-read-assigment.git
+cd file-read-assigment
+
+# Create and activate a virtual environment using uv
+uv venv
+source .venv/bin/activate  # Linux/Mac
+# or
+.venv\Scripts\activate      # Windows
+
+# Install dependencies
+uv pip install -e ".[test]"
 ```
 
 ### Running Tests
