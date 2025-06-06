@@ -80,7 +80,8 @@ See the `examples/usage.py` file for comprehensive examples of all features.
 ## Development
 ### Setup
 ```bash
-git clone https://github.com/yourusername/file-reader.git
+
+git clone https://github.com/pixbs/file-read-assigment.git
 cd file-reader
 
 # Create and activate a virtual environment
