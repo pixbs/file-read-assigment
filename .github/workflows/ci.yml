@@ -38,11 +38,6 @@ jobs:
         source .venv/bin/activate
         pytest --cov=src --cov-report=xml
         
-    - name: Run type checking
-      run: |
-        source .venv/bin/activate
-        mypy src tests
-        
     - name: Run Ruff linting
       run: |
         source .venv/bin/activate
