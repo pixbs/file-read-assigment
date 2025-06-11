@@ -9,7 +9,7 @@ from .core import FileReader, color_text
 
 class ExtendedFileReader(FileReader):
     """
-    Extended FileReader class with additional text analysis features.
+    Extended FileReader class with additional text analysis features
     """
     def __init__(self, filepath: Path, case_sensitive: bool = True):
         super().__init__(filepath)
